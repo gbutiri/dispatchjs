@@ -1,0 +1,24 @@
+# secrets / local
+.env
+.env.*
+*.env
+# AI / agent files
+.claude/
+CLAUDE.md
+.dropboxignore
+# data / databases
+db/
+*.db
+*.sqlite
+# python
+__pycache__/
+*.pyc
+env_*/
+.venv/
+# os
+.DS_Store
+Thumbs.db
+# ecosystem agent kit (copied in by onboarding - NOT the dispatch framework)
+scripts/protocols/
+# agent scaffolding template (has its own .claude)
+scaffolding/
