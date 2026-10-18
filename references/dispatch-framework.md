@@ -14,7 +14,7 @@ Dispatch is a custom jQuery-based framework for standardized AJAX interactions a
 ```
 
 **What dispatch.js creates:**
-1. **Loading circle** (`#loading-circle`) - Animated spinner with message display
+1. **Loading circle** (`#loading-circle`) - Animated spinner with message display. The spinner is a self-contained inline **SVG** (in `dispatch.js`'s `_loading_circle_html` + the `.dispatch-spinner` rules in `dispatch.css`), so it needs **no FontAwesome** or any other dependency - just jQuery + dispatch.js/.css below.
 2. **Modal container** (`.fuzz`) - Dark overlay for VBox modals
 3. **Event handlers** - All .tmbtn, .ajaxform, .autosave listeners
 
