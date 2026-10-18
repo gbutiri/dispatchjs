@@ -1036,7 +1036,7 @@ $(document).on('doAjaxController', function (e, $this) {
 // HTML templates
 _vbox_html = '<div class="fuzz" id="vbox_{g_vboxlevel}"><table align="center" class="vbox-table"><tr><td class="vbox-cell"><div class="vbox container-fluid"><div class="vbox-content">{content}</div><a href="#" class="vbox-close"><i class="fad fa-times"></i></a></div></td></tr></table></div>';
 
-_loading_circle_html = '<div id="loading-circle"><i class="fad fa-cog fa-spin"></i><div class="loading-circle-message-wrapper"><div class="loading-circle-message">Loading...</div></div></div>';
+_loading_circle_html = '<div id="loading-circle"><svg class="dispatch-spinner" viewBox="0 0 50 50"><circle class="dsp-track" cx="25" cy="25" r="20"></circle><circle class="dsp-arc" cx="25" cy="25" r="20"></circle></svg><div class="loading-circle-message-wrapper"><div class="loading-circle-message">Loading...</div></div></div>';
 
 
 /**
